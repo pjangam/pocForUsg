@@ -1,23 +1,25 @@
-﻿using Newtonsoft.Json;
+﻿using System.Web.Hosting;
+using System.IO;
+using Newtonsoft.Json;
 using StreamingAPI.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
-using System.Web.Mvc;
+using System.Web.Http;
 
 namespace StreamingAPI
 {
     [RoutePrefix("api/hotels")]
 
-    public class HotelsController : Controller
+    public class HotelsController : ApiController
     {
         [Route(@"search/init")]
         public string SearchInit(SearchCriteria criteria)
         {
             var sessionId = Guid.NewGuid().ToString();
-            new HotelService().InitSearch(sessionId, criteria);
+            Task.Factory.StartNew(() => new HotelService().InitSearch(sessionId, criteria));
             return sessionId;
         }
 
@@ -27,8 +29,8 @@ namespace StreamingAPI
             return await new HotelService().GetResult(sessionId);
         }
 
-        [Route(@"DumpData")]
-        public void DumpData()
+        [Route(@"GetDumpData")]
+        public void GetDumpData()
         {
             var searchres = new SearchResult
             {
@@ -464,7 +466,8 @@ namespace StreamingAPI
                 }
             };
             var content = JsonConvert.SerializeObject(searchres);
-            System.IO.File.WriteAllText("~/App_Data/SearchResult.json", content);
+
+            File.WriteAllText(HostingEnvironment.MapPath("~/App_Data/SearchResult.json"), content);
 
         }
     }

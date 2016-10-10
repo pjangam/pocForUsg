@@ -12,7 +12,7 @@ namespace StreamingAPI.Service
     {
         public void InitSearch(string sessionId, SearchCriteria criteria)
         {
-            Parallel.For(1, 15, async (i) =>
+            Parallel.For(0, 15, async (i) =>
             {
                 await Task.Yield();
                 var randomizer = new Random();

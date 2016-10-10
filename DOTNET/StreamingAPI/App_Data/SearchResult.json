@@ -1,1 +1,407 @@
-﻿
+{
+  "Hotels": [
+    {
+      "Name": "fddkjfnal",
+      "Price": 546.354,
+      "Id": "1",
+      "Rooms": [
+        {
+          "Id": "r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rrf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rerfewadf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rewfas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rserfasdca",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rasdas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3eq",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "r4tsfdfs",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rkgyk",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rgaew4g",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "reagr",
+          "Name": "fwefewf",
+          "Price": 78.456
+        }
+      ]
+    },
+    {
+      "Name": "fddkjfnal",
+      "Price": 546.354,
+      "Id": "2",
+      "Rooms": [
+        {
+          "Id": "r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rrf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rerfewadf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rewfas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rserfasdca",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rasdas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3eq",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "r4tsfdfs",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rkgyk",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rgaew4g",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "reagr",
+          "Name": "fwefewf",
+          "Price": 78.456
+        }
+      ]
+    },
+    {
+      "Name": "fddkjfnal",
+      "Price": 546.354,
+      "Id": "3",
+      "Rooms": [
+        {
+          "Id": "r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rrf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rerfewadf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rewfas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rserfasdca",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rasdas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3eq",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "r4tsfdfs",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rkgyk",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rgaew4g",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "reagr",
+          "Name": "fwefewf",
+          "Price": 78.456
+        }
+      ]
+    },
+    {
+      "Name": "fddkjfnal",
+      "Price": 546.354,
+      "Id": "4",
+      "Rooms": [
+        {
+          "Id": "r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rrf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rerfewadf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rewfas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rserfasdca",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rasdas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3eq",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "r4tsfdfs",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rkgyk",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rgaew4g",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "reagr",
+          "Name": "fwefewf",
+          "Price": 78.456
+        }
+      ]
+    },
+    {
+      "Name": "fddkjfnal",
+      "Price": 546.354,
+      "Id": "5",
+      "Rooms": [
+        {
+          "Id": "r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rrf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rerfewadf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rewfas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rserfasdca",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rasdas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3eq",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "r4tsfdfs",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rkgyk",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rgaew4g",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "reagr",
+          "Name": "fwefewf",
+          "Price": 78.456
+        }
+      ]
+    },
+    {
+      "Name": "fddkjfnal",
+      "Price": 546.354,
+      "Id": "6",
+      "Rooms": [
+        {
+          "Id": "r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rrf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rerfewadf",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rewfas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rserfasdca",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rasdas",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3eq",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rw3r",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "r4tsfdfs",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rkgyk",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "rgaew4g",
+          "Name": "fwefewf",
+          "Price": 78.456
+        },
+        {
+          "Id": "reagr",
+          "Name": "fwefewf",
+          "Price": 78.456
+        }
+      ]
+    }
+  ],
+  "Status": null
+}

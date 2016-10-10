@@ -38,21 +38,22 @@ namespace StreamingAPI.DB
         {
             var op = new List<SearchResult>();
             var collection = _database.GetCollection<BsonDocument>("dotnet");
-            var filter = new BsonDocument();
-            var count = 0;
-            using (var cursor = await collection.FindAsync(filter))
+
+            for (int i = 0; i < 15; i++)
             {
-                while (await cursor.MoveNextAsync())
+                try
                 {
-                    var batch = cursor.Current;
-                    foreach (var document in batch)
-                    {
-                        var searchres = BsonSerializer.Deserialize<SearchResult>(document["data"].AsBsonDocument);
-                        op.Add(searchres);
-                        count++;
-                    }
+                    var document = collection.FindOneAndUpdate(
+                        Builders<BsonDocument>.Filter.Eq("_id", sessionId + "_" + i.ToString()),
+                        Builders<BsonDocument>.Update.Set("data", "read"));
+                    var searchres = BsonSerializer.Deserialize<SearchResult>(document["data"].AsBsonDocument);
+                    op.Add(searchres);
                 }
-            }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
+            }            
             return op;
         }
     }
