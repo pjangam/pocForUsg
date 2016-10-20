@@ -159,3 +159,4 @@ FakesAssemblies/
 .vs/
 OpenCover/
 DOTNET/packages/
+NodeJS/Tavisca.USG.Car/node_modules/
